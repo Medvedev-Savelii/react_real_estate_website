@@ -1,9 +1,56 @@
-import React from 'react';
+import React from "react";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaPinterest,
+} from "react-icons/fa";
 import "./Footer.css";
+
 const Footer = () => {
   return (
-	<div>Footer</div>
-  )
-}
+    <div className="footer">
+      <div className="social">
+        <FaFacebook className="icon" />
+        <FaInstagram className="icon" />
+        <FaTwitter className="icon" />
+        <FaPinterest className="icon" />
+      </div>
+      <div className="container">
+        <div className="col">
+          <h3>About</h3>
+          <p>Company</p>
+          <p>Details</p>
+          <p>Planning</p>
+          <p>About Us</p>
+        </div>
 
-export default Footer
+        <div className="col">
+          <h3>About</h3>
+          <p>Company</p>
+          <p>Details</p>
+          <p>Planning</p>
+          <p>About Us</p>
+        </div>
+
+        <div className="col">
+          <h3>About</h3>
+          <p>Company</p>
+          <p>Details</p>
+          <p>Planning</p>
+          <p>About Us</p>
+        </div>
+
+        <div className="col">
+          <h3>About</h3>
+          <p>Company</p>
+          <p>Details</p>
+          <p>Planning</p>
+          <p>About Us</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
